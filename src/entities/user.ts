@@ -5,6 +5,7 @@ export class SocialUser {
   name: string;
   photoUrl: string;
   token?: string;
+  idToken?: string;
 }
 
 export class LoginProviderClass {

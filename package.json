@@ -1,6 +1,6 @@
 {
-  "name": "ng4-social-login",
-  "version": "1.4.0",
+  "name": "zeba-ng4-social-login",
+  "version": "1.0.0",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarfarazansari/ng4-social-login"
+    "url": "https://github.com/zebinjo/zeba-ng4-social-login"
   },
   "author": {
-    "name": "Sarfaraz Ansari",
-    "email": "sarfaraz_designer@live.in"
+    "name": "Ante Zebic",
+    "email": "azebich@gmail.com"
   },
   "keywords": [
     "angular",
