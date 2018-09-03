@@ -1,13 +1,13 @@
 {
-  "name": "ng4-social-login",
-  "version": "1.4.0",
+  "name": "zebi-ng4-social-login",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarfarazansari/ng4-social-login"
+    "url": "https://github.com/zebinjo/zebi-ng4-social-login"
   },
   "author": {
-    "name": "Sarfaraz Ansari",
-    "email": "sarfaraz_designer@live.in"
+    "name": "Ante Zebic",
+    "email": ""
   },
   "keywords": [
     "angular",
@@ -22,12 +22,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sarfarazansari/ng4-social-login/issues"
+    "url": "https://github.com/zebinjo/zebi-ng4-social-login/issues"
   },
-  "main": "ng4-social-login.umd.js",
-  "module": "ng4-social-login.js",
-  "jsnext:main": "ng4-social-login.js",
-  "typings": "ng4-social-login.d.ts",
+  "main": "zebi-ng4-social-login.umd.js",
+  "module": "zebi-ng4-social-login.js",
+  "jsnext:main": "zebi-ng4-social-login.js",
+  "typings": "zebi-ng4-social-login.d.ts",
   "peerDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/core": "^4.0.0",

@@ -21,8 +21,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "ng4-social-login.js",
-    "flatModuleId": "ng4-social-login"
+    "flatModuleOutFile": "zebi-ng4-social-login.js",
+    "flatModuleId": "zebi-ng4-social-login"
   },
   "files": [
     "./index.ts"

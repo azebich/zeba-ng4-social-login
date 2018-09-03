@@ -12,12 +12,12 @@ Supports authentication with **Google**, **Linkedin** and **Facebook**.
 
 ### Documentation
 
-check out [Docs](https://sarfarazansari.github.io/ng4-social-login/)
+check out [Docs](https://zebinjo.github.io/zebi-ng4-social-login/)
 
 ### Install via npm 
 
 ```sh
-npm install --save ng4-social-login
+npm install --save zebi-ng4-social-login
 ```
 
 ### Import the module
@@ -31,7 +31,7 @@ import {
   GoogleLoginProvider, 
   FacebookLoginProvider, 
   LinkedinLoginProvider
-} from 'ng4-social-login';
+} from 'zebi-ng4-social-login';
 
 /** 
  * config takes two params
@@ -84,7 +84,7 @@ import {
   FacebookLoginProvider, 
   GoogleLoginProvider,
   LinkedinLoginProvider
-} from 'ng4-social-login';
+} from 'zebi-ng4-social-login';
 
 @Component({
   selector: 'app-demo',
@@ -119,8 +119,8 @@ export class DemoComponent implements OnInit {
 You are notified when user logs in or logs out. You receive a `SocialUser` object when the user logs in and a `null` when the user logs out. `SocialUser` object contains basic user information such as name, email, photo URL, etc.
 
 ```javascript
-import { AuthService } from 'ng4-social-login';
-import { SocialUser } from 'ng4-social-login';
+import { AuthService } from 'zebi-ng4-social-login';
+import { SocialUser } from 'zebi-ng4-social-login';
 
 @Component({
   selector: 'app-demo',
@@ -156,7 +156,7 @@ export class DemoComponent implements OnInit {
 
 ## Building with AoT
 
-If you are facing issue in building your app with AoT, check [this document](https://github.com/sarfarazansari/angular4-social-login/blob/master/README-AOT.md).
+If you are facing issue in building your app with AoT, check [this document](https://github.com/zebinjo/angular4-social-login/blob/master/README-AOT.md).
 
 ## Contributing to project
 ```sh

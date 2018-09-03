@@ -132,7 +132,7 @@ gulp.task('rollup:umd', function () {
       // The name to use for the module for UMD/IIFE bundles
       // (required for bundles with exports)
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#modulename
-      moduleName: 'ng4-social-login',
+      moduleName: 'zebi-ng4-social-login',
 
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals
       globals: {
@@ -140,7 +140,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('ng4-social-login.umd.js'))
+    .pipe(rename('zebi-ng4-social-login.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 

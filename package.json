@@ -1,18 +1,18 @@
 {
-  "name": "zeba-ng4-social-login",
+  "name": "zebi-ng4-social-login",
   "version": "1.0.0",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n ng4-social-login -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n zebi-ng4-social-login -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check  src/**/*.ts"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zebinjo/zeba-ng4-social-login"
+    "url": "https://github.com/zebinjo/zebi-ng4-social-login"
   },
   "author": {
     "name": "Ante Zebic",
@@ -31,7 +31,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sarfarazansari/ng4-social-login/issues"
+    "url": "https://github.com/zebinjo/zebi-ng4-social-login/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",
